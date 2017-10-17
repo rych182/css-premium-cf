@@ -1,5 +1,22 @@
 header{
 		width: 100%;
 		height: 300px;
-		background: black;
+		background: red;
 	}
+
+h2, h3{
+	color: orange;
+}
+
+header h2, h3{
+	color: blue;
+}
+
+
+/*
+ESTO NO SE PUEDE, PO
+
+header h2, H3{
+	color: blue;
+}
+*/
