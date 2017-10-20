@@ -47,6 +47,8 @@ a[class|="mexico"]{
 }
 */
 
+
+/* MEDIDAS RELATIVAS
 body{
 	background: khaki;
 	font-size: 12px;
@@ -69,4 +71,10 @@ div p{
 }
 .rem{
 	font-size: 0.9rem;
+}
+
+*/
+body{
+	background-image: url("../img/gopher.jpg");
+	background-repeat: repeat-y;
 }
