@@ -75,6 +75,30 @@ div p{
 
 */
 body{
-	background-image: url("../img/gopher.jpg");
-	background-repeat: repeat-y;
+	background-image: url("../img/react.png");
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+
 }
+
+.space{
+	height: 900px;
+}
+
+/*BACKGROUND-POSITION Y BACKGROUND-SIZE
+
+
+background-position: right top; te pone la imagen a la derecha pero en la altura correspondiente, porque a veces el navegador se come una parte de la imagen.
+
+Background-position: center; te lo pone en el centro, también puedes usar porcentajes como Background-position:50% 50%; , se recomienda usar Background-position:50% 50%; porque así puedes colocar mejor la imagen.
+
+Background-attachment: fixed; te pone la imagen fija, aunque hagas scroll, la imagen se quedara en donde le digas.
+
+Background-size: 50% 50%; te pone la imagen del tamaño que le digas en X o Y.
+Nota: si la imagen es mas ancha que alta o viceversa, y tu solo pones “background-size: 100%;” la imagen en cuanto toque el 100% ya sea del ancho o del alto, así se quedará, si quieres que tenga el 100% del sitio, usa background-size: 100% 100%; 
+
+background-size: contain; tiene el mismo efecto que “background-size: 100%;”  si la imagen es mas ancha que alta o viceversa, la imagen en cuanto toque el 100% ya sea del ancho o del alto, así se quedará.
+
+*/
